@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top_nav {
+    background-color: #1F1F1F;
+    height: 80px;
+}
+
+.top_nav h2 {
+    display: inline-block;
+    padding: 10px;
+    color: rgb(226, 219, 219);
+    font-family: 'Carter One';
+    font-size: 37px;
+    margin-left: 15px;
+    cursor: url("https://static.clubs.nfl.com/eagles/jplsqfby8jxribkakkyp"), auto;
+}
+
+.top_nav ul {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+.top_nav li {
+    float: right;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+.top_nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 29px 16px;
+    text-decoration: none;
+    overflow: hidden;
+    font-size: 20px;
+    height: 22px;
+    width: 95px;
+}
+
+.top_nav h2:hover {
+    color: #004C54;
+}
+
+li a:hover {
+    background-color: #004C54;
+    background-size: auto;
+}
+
+.image1 {
+    background-image: url("images/philly.jpg");
+    height: 640px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.image1 h1 {
+    color: white;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 80px;
+    font-size: 96px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -2px black;
+}
+
+#about {
+    height: 275px;
+    margin: 20px 170px 0px;
+}
+
+#about h1 {
+    margin-top: 25px;
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+#about p {
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 150%;
+    display: inline-block;
+}
+
+.about_pics {
+    padding: 0px 60px;
+    margin-left: 110px;
+}
+
+.about_pics img {
+    margin: 0px 35px 35px;
+}
+
+#me {
+    width: auto;
+    height: 200px;
+    border-radius: 377px;
+}
+
+#sports {
+    width: auto;
+    height: 200px;
+    border-radius: 377px;
+}
+
+#games {
+    width: auto;
+    height: 200px;
+    border-radius: 377px;
+}
+
+#code {
+    width: auto;
+    height: 200px;
+    border-radius: 377px;
+}
+
+.image2 {
+    background-image: url("images/Eagles-fans.jpg");
+    height: 350px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin-top: 95px;
+}
+
+#technology {
+    height: 500px;
+}
+
+#technology h3 {
+    text-align: center;
+    margin: 50px 0px;
+    font-size: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+#technology img {
+    width: auto;
+    height: 140px;
+    margin: 0px 25px;
+}
+
+.image3 {
+    background-image: url("images/seattle.jpg");
+    height: 400px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#contact h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    margin: 30px 0px;
+}
+
+#contact a img{
+    text-align: center;
+    margin: 35px;
+    width: auto;
+    height: 80px;
+}
+
+.contact_links {
+    margin-left: 440px;
+}

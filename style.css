@@ -96,6 +96,15 @@ li a:hover {
         margin: 1% 3%;
     }
 
+    .image2 {
+        width: 100%;
+        background-attachment: scroll;
+    }
+
+    .image3 {
+        width: 100%;
+        background-attachment: scroll;
+    }
 }
 
 .image1 h1 {

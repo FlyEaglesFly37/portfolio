@@ -1,24 +1,6 @@
 $(document).ready(function() {
-    if (screen-width > 800){
-
-    
-    $(document).scroll(function() {
-        var y = $(this).scrollTop();
-        if (y > 300){
-            $('#about p').fadeIn(1400);
-        } else {
-            $('#about p').fadeOut();
-        }
+    $(".contact_links img").mouseenter(function(){
+        $(this).fadeOut("fast");
+        $(this).fadeIn("fast");
     });
-    $(document).scroll(function() {
-        var y = $(this).scrollTop();
-        if (y > 300){
-            $('#about h1').fadeIn(1400);
-        } else {
-            $('#about h1').fadeOut();
-        }
-    });
-    } else {
-        continue;
-    }
 });
